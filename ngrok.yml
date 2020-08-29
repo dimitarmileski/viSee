@@ -1,0 +1,9 @@
+authtoken: 1YDuGUkVFK8QeDD5K92H2TwuyPX_5wLVN6asmyc2rvNcjikMK
+tunnels:
+ flaskcontrolpanel:
+  proto: http
+  addr: 5000
+ rpicv:
+  proto: http
+  addr: 8000
+    
