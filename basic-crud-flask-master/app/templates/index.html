@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+		<h2>Control Panels</h2>
+		
+		{% if items %}
+			{% for item in items %}
+				<h2>{{item.name}}</h2>
+                <p><a href="{{item.description}}">{{item.description}} </a> </p><br />
+			{% endfor %}
+		{% endif %}
+{% endblock %}
